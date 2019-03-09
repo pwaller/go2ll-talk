@@ -28,4 +28,4 @@ This compiler is not at all general. It supports only the `+` operator and calli
 
 # go2ll
 
-In the near future I plan to publish `go2ll`, which is a slighly more sophisticated frontend. It will only ever be a toy, because, for example, it is unlikely to implement garbage collection and goroutines. This means it won't be good for abitrary Go programs. On the other hand, I can still think of a few interesting uses, such as for speeding up CPU intensive compute kernels. I have already been able to demonstrate 30-40% speedups in already fairly well tuned code such as that for computing SHA1 and `strconv.ParseFloat`.
+In the near future I plan to publish `go2ll`, which is a slightly more sophisticated frontend. It will only ever be a toy, because, for example, it is unlikely to implement garbage collection and goroutines. This means it won't be good for abitrary Go programs. On the other hand, I can still think of a few interesting uses, such as for speeding up CPU intensive compute kernels. I have already been able to demonstrate 30-40% speedups in already fairly well tuned code such as that for computing SHA1 and `strconv.ParseFloat`.
