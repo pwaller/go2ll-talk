@@ -22,7 +22,7 @@ Of course, this isn't possible in 20 minutes, so we take some liberties:
 
 3) The goal of this program then is to translate from one IR to the other.
 
-To show some output, we use `printf`, which we steal from `libc`, C's runtime. When we compile the resulting intermediate `clang`, the C frontend, which happens to be able to compile `.ll` (LLVM's "assembly" format).
+To show some output, we use `printf`, which we steal from `libc`, C's runtime. We compile the resulting intermediate `clang`, the C frontend, which happens to be able to compile `.ll` (LLVM's "assembly" format).
 
 This compiler is not at all general. It supports only the `+` operator and calling the `println` function (which is actually libc's printf function). So it can't do very much. But hopefully that simplicity is also what allows some newcomers to understand it.
 
